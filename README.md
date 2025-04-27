@@ -1,6 +1,15 @@
 # Valentyne
-Official homepage for Valentyne Design Studio
 
-Website access: https://fengchunfan.github.io/Valentyne
+Welcome to the official homepage of **Valentyne Design Studio**.
 
-Style sheet access: https://fengchunfan.github.io/Valentyne/style.css
+🌐 **Website:** [Visit Here](https://fengchunfan.github.io/Valentyne)  
+🎨 **Stylesheet:** [View style.css](https://fengchunfan.github.io/Valentyne/style.css)
+
+---
+
+## 🚀 Technologies Used
+
+- **HTML5** – for structuring the webpage
+- **CSS3** – for styling and layout
+- **JavaScript (jQuery)** – for DOM interaction
+- **[OnePageScroll.js](https://github.com/peachananr/onepage-scroll)** – to implement full-screen one-page scrolling
