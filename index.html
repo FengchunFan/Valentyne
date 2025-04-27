@@ -4,11 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Official homepage for Valentyne Design Studio</title>
+
+  <!-- OnePageScroll CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/peachananr/onepage-scroll/onepage-scroll.css">
+
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    <h1>Valentyne</h1>
+<div id="container">
+    <section class="page" id="page1">
+      <h1>Valentyne</h1>
+    </section>
+    
+    <section class="page" id="page2">
+    </section>
+  </div>
+
+  <!-- Load jQuery FIRST -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Then OnePageScroll -->
+  <script src="https://cdn.jsdelivr.net/gh/peachananr/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $("#container").onepage_scroll({
+        sectionContainer: ".page",
+        easing: "ease",
+        animationTime: 1000,
+        pagination: true,
+        updateURL: false
+      });
+    });
+  </script>
 </body>
 
 </html>
