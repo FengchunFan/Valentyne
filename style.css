@@ -34,15 +34,24 @@ html {
   padding: 20px;
 }
 
-/* Global h1 (title) styling */
+/* Global h1 (title) */
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
 }
 
-/* Global paragraph styling */
+/* Global paragraph */
 p {
   font-size: 20px;
   line-height: 1.5;
+  margin: 0 auto;
+}
+
+/* Homepage Logo */
+#page1 .intro-gif {
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  display: block;
   margin: 0 auto;
 }
