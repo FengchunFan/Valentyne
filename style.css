@@ -11,27 +11,10 @@ html {
   background-size: cover;
 }
 
-/* Center your content */
-body {
-  max-width: 800px;
-  margin: 40px auto;
-}
-
-/* Make a semi-transparent background for the text */
-.content {
-  background: rgba(0, 0, 0, 0.7); /* dark with slight transparency */
-  padding: 30px;
-  border-radius: 15px; /* rounded corners, optional */
-  color: white;
-}
-
-/* Heading style */
+/* Heading */
 h1 {
-  color: steelblue;
-}
-
-/* Paragraph style */
-p {
-  font-size: 20px;
   color: white;
+  text-align: center;
+  margin-top: 100px; /* move heading downward */
+  font-size: 48px;
 }
