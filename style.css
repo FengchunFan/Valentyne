@@ -1,15 +1,37 @@
-body {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  margin: 40px;
-  background-image: url("images/background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-/**
-* Introduction paragraph
-*/
+/* Full screen background */
+html {
+  background: url('images/background.png') center center no-repeat fixed;
+  background-size: cover;
+}
+
+/* Center your content */
+body {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+/* Make a semi-transparent background for the text */
+.content {
+  background: rgba(0, 0, 0, 0.7); /* dark with slight transparency */
+  padding: 30px;
+  border-radius: 15px; /* rounded corners, optional */
+  color: white;
+}
+
+/* Heading style */
 h1 {
   color: steelblue;
+}
+
+/* Paragraph style */
+p {
+  font-size: 20px;
+  color: white;
 }
