@@ -39,13 +39,26 @@
   <script src="https://cdn.jsdelivr.net/gh/peachananr/onepage-scroll/jquery.onepage-scroll.min.js"></script>
   <script>
     $(document).ready(function() {
+      const savedPage = sessionStorage.getItem('currentPage');
       $("#container").onepage_scroll({
         sectionContainer: ".page",
         easing: "ease",
         animationTime: 1000,
         pagination: false,
-        updateURL: false
+        updateURL: false,
+        // Save currentPage in the session
+        // Reset when session is closed
+        beforeMove: function(index) {
+          sessionStorage.setItem('currentPage', index);
+        }
       });
+
+      // Wait a little after the page loads before moving
+      if (savedPage && savedPage != "1") {
+        setTimeout(() => {
+          $("#container").moveTo(savedPage);
+        }, 300); // ms delay time
+      }
     });
   </script>
 </body>
