@@ -49,10 +49,10 @@ p {
 
 /* Homepage Logo */
 #page1 .logo-gif {
-  width: 800px;
+  width: 750px;
   max-width: 90%;
   height: auto;
   display: block;
   position: relative;
-  left: -12%; 
+  left: -20%; 
 }
