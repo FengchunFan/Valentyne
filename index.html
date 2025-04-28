@@ -40,7 +40,6 @@
   <script>
     $(document).ready(function() {
       const savedPage = sessionStorage.getItem('currentPage');
-
       $("#container").onepage_scroll({
         sectionContainer: ".page",
         easing: "ease",
@@ -56,7 +55,7 @@
       if (savedPage && savedPage != "1") {
         setTimeout(() => {
           $("#container").moveTo(savedPage);
-        }, 300); // 300 milliseconds delay (safe time)
+        }, 250); // ms delay time
       }
     });
   </script>
