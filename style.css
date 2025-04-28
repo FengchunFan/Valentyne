@@ -47,24 +47,28 @@ p {
   margin: 0 auto; /* center */
 }
 
-/* Logo container: Flexbox for two logos */
+/* Logo container */
 .logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px; /* spacing between the two logos */
+  position: relative;
+  width: 800px;
+  height: auto;
 }
 
 /* First logo */
 #page1 .logo-gif {
-  width: 500px;
-  max-width: 45%;
+  width: 100%;
   height: auto;
+  position: relative;
+  z-index: 1;
 }
 
-/* Second logo */
+/* Second logo overlapping the first */
 #page1 .code-gif {
-  width: 400px;
-  max-width: 40%;
+  width: 70%;
   height: auto;
+  position: absolute; 
+  top: 15%; /* adjust vertical position */
+  left: 50%; /* adjust horizontal position */
+  transform: translateX(+18%); /* fine-tune overlap */
+  z-index: 2; /* ensure this is above */
 }
