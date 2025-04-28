@@ -32,6 +32,7 @@ html {
   color: white;
   max-width: 800px;
   padding: 20px;
+  transform: translateY(-5%); /* Move up a bit */
 }
 
 /* Global h1 (title) */
