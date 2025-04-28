@@ -53,3 +53,51 @@ p {
   height: auto;
   display: inline;
 }
+
+/* Instagram icon inside Page 3 */
+#page3 .social-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Contact Form styling inside Page 3 */
+#page3 .contact-form {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+#page3 .contact-form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+  color: white;
+}
+
+#page3 .contact-form input,
+#page3 .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#page3 .contact-form button {
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#page3 .contact-form button:hover {
+  background-color: dodgerblue;
+}
