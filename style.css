@@ -44,14 +44,15 @@ h1 {
 p {
   font-size: 20px;
   line-height: 1.5;
-  margin: 0 auto;
+  margin: 0 auto; /* center */
 }
 
 /* Homepage Logo */
-#page1 .intro-gif {
-  width: 400px;
+#page1 .logo-gif {
+  width: 800px;
   max-width: 90%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  position: relative;
+  left: -12%; 
 }
