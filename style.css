@@ -47,28 +47,9 @@ p {
   margin: 0 auto; /* center */
 }
 
-/* Logo container */
-.logo-container {
-  position: relative;
-  width: 800px;
-  height: auto;
-}
-
-/* First logo */
+/* Keep default setting */
 #page1 .logo-gif {
-  width: 100%;
+  width: auto;
   height: auto;
-  position: relative;
-  z-index: 1;
-}
-
-/* Second logo overlapping the first */
-#page1 .code-gif {
-  width: 70%;
-  height: auto;
-  position: absolute; 
-  top: 15%; /* adjust vertical position */
-  left: 50%; /* adjust horizontal position */
-  transform: translateX(+18%); /* fine-tune overlap */
-  z-index: 2; /* ensure this is above */
+  display: inline;
 }
