@@ -46,6 +46,8 @@
         animationTime: 1000,
         pagination: false,
         updateURL: false,
+        // Save currentPage in the session
+        // Reset when session is closed
         beforeMove: function(index) {
           sessionStorage.setItem('currentPage', index);
         }
@@ -55,7 +57,7 @@
       if (savedPage && savedPage != "1") {
         setTimeout(() => {
           $("#container").moveTo(savedPage);
-        }, 250); // ms delay time
+        }, 300); // ms delay time
       }
     });
   </script>
