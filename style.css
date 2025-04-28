@@ -5,7 +5,7 @@ body {
 }
 
 html {
-  background: url('images/background.png') center center no-repeat;
+  background: url('images/background.gif') center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -34,15 +34,22 @@ html {
   padding: 20px;
 }
 
-/* Global h1 (title) styling */
+/* Global h1 (title) */
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
 }
 
-/* Global paragraph styling */
+/* Global paragraph */
 p {
   font-size: 20px;
   line-height: 1.5;
-  margin: 0 auto;
+  margin: 0 auto; /* center */
+}
+
+/* Keep default setting */
+#page1 .logo-gif {
+  width: auto;
+  height: auto;
+  display: inline;
 }
