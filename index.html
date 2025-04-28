@@ -39,6 +39,8 @@
   <script src="https://cdn.jsdelivr.net/gh/peachananr/onepage-scroll/jquery.onepage-scroll.min.js"></script>
   <script>
     $(document).ready(function() {
+      const savedPage = sessionStorage.getItem('currentPage');
+
       $("#container").onepage_scroll({
         sectionContainer: ".page",
         easing: "ease",
@@ -46,17 +48,16 @@
         pagination: false,
         updateURL: false,
         beforeMove: function(index) {
-          // Save the page index to session storage before moving
-          // To session thus, when window is closed, this resets
+          // Save current page number during move
           sessionStorage.setItem('currentPage', index);
+        },
+        afterMove: function(index) {
+          // After first full setup, move to the saved page
+          if (savedPage && index === 1) { 
+            $("#container").moveTo(savedPage);
+          }
         }
       });
-
-      // After setting up, check if there's a saved page index
-      const savedPage = localStorage.getItem('currentPage');
-      if (savedPage) {
-        $("#container").moveTo(savedPage);
-      }
     });
   </script>
 </body>
