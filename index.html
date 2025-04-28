@@ -44,8 +44,19 @@
         easing: "ease",
         animationTime: 1000,
         pagination: false,
-        updateURL: false
+        updateURL: false,
+        beforeMove: function(index) {
+          // Save the page index to session storage before moving
+          // To session thus, when window is closed, this resets
+          sessionStorage.setItem('currentPage', index);
+        }
       });
+
+      // After setting up, check if there's a saved page index
+      const savedPage = localStorage.getItem('currentPage');
+      if (savedPage) {
+        $("#container").moveTo(savedPage);
+      }
     });
   </script>
 </body>
