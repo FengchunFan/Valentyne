@@ -51,30 +51,29 @@ p {
 }
 
 /* ---------- Page 1 Style ---------- */
+/* Keep default setting */
+/* Allow overlap */
 #page1 .image-container {
   position: relative;
-  width: 85vw;        /* scale based on screen width */
-  max-width: 85vw;
-  height: auto;
-  max-height: 85vh;   /* limit height */
+  width: fit-content;
+  height: fit-content;
 }
 
-/* Both images stacked absolutely */
 #page1 .image-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Layer control */
 #page1 .logo-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 
 #page1 .deco-gif-1 {
+  position: relative;
   z-index: 2;
 }
 
