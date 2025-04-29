@@ -55,7 +55,7 @@ p {
 /* Allow overlap */
 #page1 .image-container {
   position: relative;
-  width: fit-content;
+  width: 85vw;
   height: fit-content;
 }
 
