@@ -54,19 +54,18 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: relative;
-  width: fit-content;
-  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* Add this */
 #page1 .image-container img {
   position: absolute; 
   top: 0;
   left: 0;
 }
 
-/* Then your individual layers */
 #page1 .logo-gif {
   z-index: 1;
 }
