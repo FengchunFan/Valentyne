@@ -54,7 +54,7 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: relative;
+  position: absolute;
   width: fit-content;
   height: fit-content;
   transform: translate(-50%, -50%);
