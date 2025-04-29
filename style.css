@@ -59,6 +59,18 @@ p {
   height: fit-content;
 }
 
+#page1 .deco-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#page1 .logo-gif {
+  position: relative;
+  z-index: 2;
+}
+
 /* ---------- Page 3 Style ---------- */
 /* Instagram icon inside Page 3 */
 #page3 .social-icon {
