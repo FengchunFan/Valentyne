@@ -59,14 +59,14 @@ p {
   height: fit-content;
 }
 
-#page1 .deco-gif {
+#page1 .logo-gif {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
 
-#page1 .logo-gif {
+#page1 .deco-gif-1 {
   position: relative;
   z-index: 2;
 }
