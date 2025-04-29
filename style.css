@@ -60,10 +60,8 @@ p {
 }
 
 /* Layer 1 need to be absolute */
-#page1 .log-gif {
-  position: absolute;
-  top: 0;
-  left: 0;
+#page1 .logo-gif {
+  position: relative;
   z-index: 1;
 }
 
