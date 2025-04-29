@@ -84,9 +84,14 @@ p {
   z-index: 3;
 }
 
+/* ---------- Page 2 Style ---------- */
+
 /* ---------- Page 3 Style ---------- */
+
+/* ---------- Page 4 Style ---------- */
+/* ---------- TODO: Dynamic Size ---------- */
 /* Instagram icon inside Page 3 */
-#page3 .social-icon {
+#page4 .social-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
@@ -94,22 +99,22 @@ p {
 }
 
 /* Contact Form styling inside Page 3 */
-#page3 .contact-form {
+#page4 .contact-form {
   margin-top: 20px;
   width: 100%;
   max-width: 500px;
   text-align: left;
 }
 
-#page3 .contact-form label {
+#page4 .contact-form label {
   font-size: 18px;
   margin-bottom: 5px;
   display: block;
   color: white;
 }
 
-#page3 .contact-form input,
-#page3 .contact-form textarea {
+#page4 .contact-form input,
+#page4 .contact-form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -118,7 +123,7 @@ p {
   font-size: 16px;
 }
 
-#page3 .contact-form button {
+#page4 .contact-form button {
   padding: 12px 20px;
   font-size: 18px;
   border: none;
@@ -129,6 +134,6 @@ p {
   transition: background-color 0.3s ease;
 }
 
-#page3 .contact-form button:hover {
+#page4 .contact-form button:hover {
   background-color: dodgerblue;
 }
