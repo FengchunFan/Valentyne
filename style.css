@@ -57,26 +57,30 @@ p {
   position: relative;
   width: fit-content;
   height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#page1 .logo-gif {
+/* Stack all images exactly on top of each other */
+#page1 .image-container img {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;    /* ensures scaling consistency */
+  height: auto;
+}
+
+/* Layer control */
+#page1 .deco-gif-1 {
   z-index: 1;
 }
 
-#page1 .deco-gif-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+#page1 .deco-gif-2 {
   z-index: 2;
 }
 
-#page1 .deco-gif-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
+#page1 .logo-gif {
   z-index: 3;
 }
 
