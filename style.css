@@ -54,36 +54,9 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: absolute;
+  position: relative;
   width: fit-content;
   height: fit-content;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%
-}
-
-/* Bottom decoration */
-#page1 .deco-gif-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-/* Top decoration */
-#page1 .deco-gif-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
-/* Logo on top */
-#page1 .logo-gif {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
 }
 
 /* ---------- Page 3 Style ---------- */
