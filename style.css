@@ -58,8 +58,19 @@ p {
   display: inline-block;
 }
 
-/* All images are absolutely positioned */
-#page1 .image-container img {
+/* Logo is NOT absolute. It stays normal so size is preserved */
+#page1 .logo-gif {
+  display: block; /* behave like normal image */
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  z-index: 1;
+}
+
+/* Decorations are absolute and layered on top */
+#page1 .deco-gif-1,
+#page1 .deco-gif-2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,10 +78,6 @@ p {
   height: auto;
   max-width: none;
   max-height: none;
-}
-
-#page1 .logo-gif {
-  z-index: 1;
 }
 
 #page1 .deco-gif-1 {
