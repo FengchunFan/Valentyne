@@ -54,18 +54,20 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: relative; /* (already good) */
-  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Add this */
 #page1 .image-container img {
-  position: absolute; 
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* perfectly center */
 }
 
-/* Then your individual layers */
+/* Layering by z-index */
 #page1 .logo-gif {
   z-index: 1;
 }
