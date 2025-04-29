@@ -8,7 +8,7 @@ body {
 /* Background */
 html {
   background: url('images/background.gif') center center no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%; /* Use cover for crop, right now it stretches */
   background-attachment: fixed;
   background-position: center;
 }
@@ -51,23 +51,27 @@ p {
 }
 
 /* ---------- Page 1 Style ---------- */
-/* Keep default setting */
-/* Allow overlap */
 #page1 .image-container {
   position: relative;
-  width: fit-content;
-  height: fit-content;
+  width: 85vw;           /* Max 85% of screen width */
+  max-width: 85vw;
+  height: auto;          /* Let height adjust based on images */
+  max-height: 85vh;      /* But limit height too */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Constrain image sizes within the 90% viewport */
+/* All images inside behave naturally */
 #page1 .image-container img {
-  max-width: 90vw;
-  max-height: 90vh;
-  height: auto;
-  width: auto;
+  max-width: 100%;       /* Image won't overflow container width */
+  max-height: 100%;      /* Image won't overflow container height */
+  width: auto;           /* Natural width if possible */
+  height: auto;          /* Natural height */
   display: block;
 }
 
+/* Position stacking images without stretching */
 #page1 .logo-gif {
   position: absolute;
   top: 0;
@@ -76,7 +80,9 @@ p {
 }
 
 #page1 .deco-gif-1 {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 
