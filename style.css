@@ -54,38 +54,30 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: relative;
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  position: relative; /* (already good) */
+  display: inline-block;
 }
 
-/* Stack all images exactly on top of each other */
+/* Add this */
 #page1 .image-container img {
-  position: absolute;
+  position: absolute; 
   top: 0;
   left: 0;
-  width: auto;
-  height: auto;
 }
 
-/* Layer control */
-#page1 .deco-gif-1 {
+/* Then your individual layers */
+#page1 .logo-gif {
   z-index: 1;
 }
 
-#page1 .deco-gif-2 {
+#page1 .deco-gif-1 {
   z-index: 2;
 }
 
-#page1 .logo-gif {
+#page1 .deco-gif-2 {
   z-index: 3;
 }
+
 
 /* ---------- Page 3 Style ---------- */
 /* Instagram icon inside Page 3 */
