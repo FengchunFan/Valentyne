@@ -71,6 +71,11 @@ p {
   z-index: 2;
 }
 
+#page1 .deco-gif-2 {
+  position: relative;
+  z-index: 3;
+}
+
 /* ---------- Page 3 Style ---------- */
 /* Instagram icon inside Page 3 */
 #page3 .social-icon {
