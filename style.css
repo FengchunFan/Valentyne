@@ -60,7 +60,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed red; /* debug: remove later */
 }
 
 /* Stack all images exactly on top of each other */
@@ -70,7 +69,6 @@ p {
   left: 0;
   width: auto;
   height: auto;
-  outline: 1px solid limegreen; /* debug: remove later */
 }
 
 /* Layer control */
