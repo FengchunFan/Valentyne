@@ -61,7 +61,9 @@ p {
 
 /* Layer 1 need to be absolute */
 #page1 .logo-gif {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 
