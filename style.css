@@ -50,7 +50,7 @@ p {
 }
 
 /* Keep default setting */
-#page1 .logo-gif {
+#page1 .static_gif {
   width: auto;
   height: auto;
   display: inline;
