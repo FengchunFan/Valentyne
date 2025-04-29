@@ -60,19 +60,19 @@ p {
 }
 
 /* Layer 1 need to be absolute */
-#page1 .deco-gif-1 {
+#page1 .log-gif {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
 
-#page1 .deco-gif-2 {
+#page1 .deco-gif-1 {
   position: relative;
   z-index: 2;
 }
 
-#page1 .logo-gif {
+#page1 .deco-gif-2 {
   position: relative;
   z-index: 3;
 }
