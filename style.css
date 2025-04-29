@@ -60,6 +60,9 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 /* Stack all images exactly on top of each other */
