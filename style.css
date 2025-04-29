@@ -60,6 +60,7 @@ p {
 
 /* Logo is NOT absolute. It stays normal so size is preserved */
 #page1 .img {
+  position: absolute;
   display: block; /* behave like normal image */
   width: auto;
   height: auto;
