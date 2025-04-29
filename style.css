@@ -54,29 +54,32 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: max-content;
-  height: max-content;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
 }
 
-#page1 .image-container img {
-  position: absolute; 
+/* Bottom decoration */
+#page1 .deco-gif-1 {
+  position: absolute;
   top: 0;
   left: 0;
-}
-
-#page1 .logo-gif {
   z-index: 1;
 }
 
-#page1 .deco-gif-1 {
+/* Top decoration */
+#page1 .deco-gif-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 
-#page1 .deco-gif-2 {
+/* Logo on top */
+#page1 .logo-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 3;
 }
 
