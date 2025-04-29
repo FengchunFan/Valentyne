@@ -59,6 +59,15 @@ p {
   height: fit-content;
 }
 
+/* Constrain image sizes within the 90% viewport */
+#page1 .image-container img {
+  max-width: 90vw;
+  max-height: 90vh;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
 #page1 .logo-gif {
   position: absolute;
   top: 0;
