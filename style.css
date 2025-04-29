@@ -54,20 +54,18 @@ p {
 /* Keep default setting */
 /* Allow overlap */
 #page1 .image-container {
-  position: relative;
+  position: relative; /* (already good) */
   display: inline-block;
 }
 
-/* Logo is NOT absolute. It stays normal so size is preserved */
-#page1 .img {
-  position: absolute;
-  display: block; /* behave like normal image */
-  width: auto;
-  height: auto;
-  max-width: none;
-  max-height: none;
+/* Add this */
+#page1 .image-container img {
+  position: absolute; 
+  top: 0;
+  left: 0;
 }
 
+/* Then your individual layers */
 #page1 .logo-gif {
   z-index: 1;
 }
