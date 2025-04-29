@@ -60,14 +60,14 @@ p {
   align-items: center;
 }
 
+/* Let images stack naturally with transparency */
 #page1 .image-container img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* perfectly center */
+  position: absolute; /* Stack all images */
+  top: 0;
+  left: 0;
 }
 
-/* Layering by z-index */
+/* Layer control */
 #page1 .logo-gif {
   z-index: 1;
 }
