@@ -13,3 +13,8 @@ Welcome to the official homepage of **Valentyne Design Studio**.
 - **CSS3** – for styling and layout
 - **JavaScript (jQuery)** – for DOM interaction
 - **[OnePageScroll.js](https://github.com/peachananr/onepage-scroll)** – to implement full-screen one-page scrolling
+
+---
+
+## 📷 Assets
+Instagram icon taken from: [https://ny.m.wikipedia.org/wiki/File:Instagram_icon.png](https://ny.m.wikipedia.org/wiki/File:Instagram_icon.png)
