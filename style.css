@@ -67,7 +67,9 @@ p {
 }
 
 #page1 .deco-gif-1 {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 
