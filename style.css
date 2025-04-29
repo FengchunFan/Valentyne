@@ -70,9 +70,7 @@ p {
 }
 
 #page1 .logo-gif {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 1;
 }
 
