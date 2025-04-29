@@ -53,34 +53,28 @@ p {
 /* ---------- Page 1 Style ---------- */
 #page1 .image-container {
   position: relative;
-  width: 85vw;           /* Max 85% of screen width */
+  width: 85vw;        /* scale based on screen width */
   max-width: 85vw;
-  height: auto;          /* Let height adjust based on images */
-  max-height: 85vh;      /* But limit height too */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  max-height: 85vh;   /* limit height */
 }
 
-/* All images inside behave naturally */
+/* Both images stacked absolutely */
 #page1 .image-container img {
-  max-width: 100%;       /* Image won't overflow container width */
-  max-height: 100%;      /* Image won't overflow container height */
-  width: auto;           /* Natural width if possible */
-  height: auto;          /* Natural height */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
-/* Position stacking images without stretching */
+/* Layer control */
 #page1 .logo-gif {
-  position: relative;
   z-index: 1;
 }
 
 #page1 .deco-gif-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 2;
 }
 
