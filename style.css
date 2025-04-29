@@ -1,3 +1,4 @@
+/* ---------- Global Style ---------- */
 body {
   margin: 0;
   padding: 0;
@@ -49,13 +50,30 @@ p {
   margin: 0 auto; /* center */
 }
 
+/* ---------- Page 1 Style ---------- */
 /* Keep default setting */
-#page1 .static_gif {
-  width: auto;
-  height: auto;
-  display: inline;
+/* Allow overlap */
+#page1 .image-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
 }
 
+#page1 .image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#page1 .logo-gif {
+  z-index: 2;
+}
+
+#page1 .deco-gif {
+  z-index: 1;
+}
+
+/* ---------- Page 3 Style ---------- */
 /* Instagram icon inside Page 3 */
 #page3 .social-icon {
   width: 50px;
