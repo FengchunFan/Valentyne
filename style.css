@@ -32,7 +32,7 @@ html {
 /* All textual content */
 .content {
   color: white;
-  max-width: 800px;
+  max-width: 80vw;
   padding: 20px;
   transform: translateY(-15%); /* Move up a bit */
   border: 3px solid lightblue;
@@ -40,13 +40,13 @@ html {
 
 /* Global h1 (title) */
 h1 {
-  font-size: clamp(32px, 5vw, 80px);
+  font-size: 48px;
   margin-bottom: 20px;
 }
 
 /* Global paragraph */
 p {
-  font-size: clamp(16px, 2.5vw, 36px);
+  font-size: 20px;
   line-height: 1.5;
   margin: 0 auto; /* center */
 }
