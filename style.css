@@ -31,25 +31,18 @@ html {
 
 /* All textual content */
 .content {
+  width: 85vw; 
+  box-sizing: border-box;
   color: white;
-  width: 85vw;
   max-width: 800px;
   padding: 20px;
   transform: translateY(-15%); /* Move up a bit */
-  box-sizing: border-box;
 }
 
-/* Global h1 (title) */
-h1 {
-  font-size: clamp(32px, 5vw, 48px);
-  margin-bottom: 20px;
-}
-
-/* Global paragraph */
-p {
-  font-size: clamp(16px, 2.5vw, 20px);
-  line-height: 1.5;
-  margin: 0 auto; /* center */
+.content h1,
+.content p {
+  width: 100%;           /* make text blocks fill container */
+  word-wrap: break-word; /* avoid overflow if long words */
 }
 
 /* ---------- Page 1 Style ---------- */
