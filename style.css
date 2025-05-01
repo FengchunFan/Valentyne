@@ -92,7 +92,13 @@ p {
 
 /* ---------- Page 5 Style ---------- */
 /* ---------- TODO: Dynamic Size ---------- */
-/* Instagram icon inside Page 3 */
+#page5 .content {
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Instagram icon */
 #page5 .social-icon {
   width: 50px;
   height: 50px;
@@ -100,7 +106,7 @@ p {
   cursor: pointer;
 }
 
-/* Contact Form styling inside Page 3 */
+/* Contact Form styling */
 #page5 .contact-form {
   margin-top: 20px;
   width: 100%;
