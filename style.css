@@ -93,9 +93,7 @@ p {
 /* ---------- Page 5 Style ---------- */
 /* ---------- TODO: Dynamic Size ---------- */
 #page5 .content {
-  color: white;
-  max-width: 800px;
-  padding: 20px;
+  transform: translateY(0);
 }
 
 /* Instagram icon */
