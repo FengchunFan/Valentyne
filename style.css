@@ -31,18 +31,24 @@ html {
 
 /* All textual content */
 .content {
-  width: 85vw; 
-  box-sizing: border-box;
   color: white;
   max-width: 800px;
   padding: 20px;
   transform: translateY(-15%); /* Move up a bit */
+  border: 3px solid lightblue;
 }
 
-.content h1,
-.content p {
-  width: 100%;           /* make text blocks fill container */
-  word-wrap: break-word; /* avoid overflow if long words */
+/* Global h1 (title) */
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Global paragraph */
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto; /* center */
 }
 
 /* ---------- Page 1 Style ---------- */
