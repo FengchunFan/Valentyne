@@ -32,20 +32,22 @@ html {
 /* All textual content */
 .content {
   color: white;
+  width: 85vw;
   max-width: 800px;
   padding: 20px;
   transform: translateY(-15%); /* Move up a bit */
+  box-sizing: border-box;
 }
 
 /* Global h1 (title) */
 h1 {
-  font-size: 48px;
+  font-size: clamp(32px, 5vw, 48px);
   margin-bottom: 20px;
 }
 
 /* Global paragraph */
 p {
-  font-size: 20px;
+  font-size: clamp(16px, 2.5vw, 20px);
   line-height: 1.5;
   margin: 0 auto; /* center */
 }
