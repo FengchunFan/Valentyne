@@ -17,4 +17,4 @@ Welcome to the official homepage of **Valentyne Design Studio**.
 ---
 
 ## 📷 Assets
-Instagram icon taken from: [https://ny.m.wikipedia.org/wiki/File:Instagram_icon.png](https://ny.m.wikipedia.org/wiki/File:Instagram_icon.png)
+- Instagram icon taken from: [https://ny.m.wikipedia.org/wiki/File:Instagram_icon.png](https://ny.m.wikipedia.org/wiki/File:Instagram_icon.png)
