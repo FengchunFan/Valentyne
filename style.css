@@ -40,13 +40,13 @@ html {
 
 /* Global h1 (title) */
 h1 {
-  font-size: 48px;
+  font-size: clamp(32px, 5vw, 80px);
   margin-bottom: 20px;
 }
 
 /* Global paragraph */
 p {
-  font-size: 20px;
+  font-size: clamp(16px, 2.5vw, 36px);
   line-height: 1.5;
   margin: 0 auto; /* center */
 }
