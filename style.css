@@ -35,7 +35,7 @@ html {
   max-width: 80vw;
   padding: 20px;
   transform: translateY(-15%); /* Move up a bit */
-  border: 3px solid lightblue;
+  /* border: 3px solid lightblue; */
 }
 
 /* Global h1 (title) */
