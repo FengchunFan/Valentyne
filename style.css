@@ -34,7 +34,7 @@ html {
   color: white;
   max-width: 800px;
   padding: 20px;
-  transform: translateY(-5%); /* Move up a bit */
+  transform: translateY(-15%); /* Move up a bit */
 }
 
 /* Global h1 (title) */
@@ -89,9 +89,11 @@ p {
 /* ---------- Page 3 Style ---------- */
 
 /* ---------- Page 4 Style ---------- */
+
+/* ---------- Page 5 Style ---------- */
 /* ---------- TODO: Dynamic Size ---------- */
 /* Instagram icon inside Page 3 */
-#page4 .social-icon {
+#page5 .social-icon {
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
@@ -99,22 +101,22 @@ p {
 }
 
 /* Contact Form styling inside Page 3 */
-#page4 .contact-form {
+#page5 .contact-form {
   margin-top: 20px;
   width: 100%;
   max-width: 500px;
   text-align: left;
 }
 
-#page4 .contact-form label {
+#page5 .contact-form label {
   font-size: 18px;
   margin-bottom: 5px;
   display: block;
   color: white;
 }
 
-#page4 .contact-form input,
-#page4 .contact-form textarea {
+#page5 .contact-form input,
+#page5 .contact-form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -123,7 +125,7 @@ p {
   font-size: 16px;
 }
 
-#page4 .contact-form button {
+#page5 .contact-form button {
   padding: 12px 20px;
   font-size: 18px;
   border: none;
@@ -134,6 +136,6 @@ p {
   transition: background-color 0.3s ease;
 }
 
-#page4 .contact-form button:hover {
+#page5 .contact-form button:hover {
   background-color: dodgerblue;
 }
