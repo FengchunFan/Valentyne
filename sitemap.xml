@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sitemap for Valentyne Design Studio
+  This file helps search engines discover the key sections of the website.
+  Although the site is a single-page design with anchor links (#),
+  including them here gives crawlers extra hints about internal sections.
+-->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://fengchunfan.github.io/Valentyne/</loc>
+    <changefreq>monthly</changefreq> <!-- Tells search engines content changes about once a month -->
+    <priority>1.0</priority> <!-- Marks this as the most important page -->
+  </url>
+
+  <!-- About section -->
+  <url>
+    <loc>https://fengchunfan.github.io/Valentyne/#page2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gallery section -->
+  <url>
+    <loc>https://fengchunfan.github.io/Valentyne/#page3</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Reference Templates section -->
+  <url>
+    <loc>https://fengchunfan.github.io/Valentyne/#page4</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact section -->
+  <url>
+    <loc>https://fengchunfan.github.io/Valentyne/#page5</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
