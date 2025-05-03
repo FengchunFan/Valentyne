@@ -3,7 +3,7 @@
 Welcome to the official homepage of **Valentyne Design Studio**.
 
 🌐 **Website:** [Visit Here](https://fengchunfan.github.io/Valentyne)  
-🎨 **Stylesheet:** [View style.css](https://fengchunfan.github.io/Valentyne/style.css)
+🎨 **Stylesheet:** [View style.css](https://fengchunfan.github.io/Valentyne/style.css)  
 🗺️ **Sitemap:** [View sitemap.xml](https://fengchunfan.github.io/Valentyne/sitemap.xml)
 
 ---

@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-  Sitemap for Valentyne Design Studio
-  Single-page site: only the main URL is included because #anchors are not supported in sitemaps.
--->
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
+  <!-- Sitemap for Valentyne Design Studio -->
   <url>
     <loc>https://fengchunfan.github.io/Valentyne/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-
 </urlset>
