@@ -34,7 +34,7 @@ html {
   color: white;
   max-width: 80vw;
   padding: 20px;
-  transform: translateY(-15%); /* Move up a bit */
+  /* transform: translateY(-15%);*/ /* Move up a bit */
   /* border: 3px solid lightblue; */
 }
 
@@ -49,6 +49,37 @@ p {
   font-size: 20px;
   line-height: 1.5;
   margin: 0 auto; /* center */
+}
+
+/* Top Bar */
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* adjust if needed */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 9999;
+}
+
+#topbarImage {
+  height: 100%;
+}
+
+#navLinks a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#navLinks a:hover {
+  text-decoration: underline;
 }
 
 /* ---------- Page 1 Style ---------- */
@@ -93,9 +124,10 @@ p {
 
 /* ---------- Page 5 Style ---------- */
 /* ---------- TODO: Dynamic Size ---------- */
-#page5 .content {
+/* Adjust content alignment */
+/* #page5 .content {
   transform: translateY(0);
-}
+} */
 
 /* Instagram icon */
 #page5 .social-icon {
