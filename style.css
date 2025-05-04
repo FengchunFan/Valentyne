@@ -71,7 +71,7 @@ p {
   top: 0;
   left: 15%;
   width: 85%;
-  height: 12vh; /* % of screen height → where visual bar is */
+  height: 8vh; /* % of screen height → where visual bar is */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -79,7 +79,7 @@ p {
 }
 
 #navLinks a img {
-  height: 5vh;
+  height: 3vh;
   width: auto;
   display: block;
   transition: transform 0.2s ease;
