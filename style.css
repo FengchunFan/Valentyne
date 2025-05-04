@@ -57,17 +57,14 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px; /* adjust if needed */
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
+  background-color: transparent; /* or rgba if needed for backup color */
   z-index: 9999;
 }
 
 #topbarImage {
-  height: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 #navLinks a {
