@@ -79,7 +79,7 @@ p {
 }
 
 #navLinks a img {
-  height: 30px;
+  height: 5vh;
   width: auto;
   display: block;
   transition: transform 0.2s ease;
