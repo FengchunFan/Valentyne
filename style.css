@@ -71,7 +71,7 @@ p {
   top: 0;
   left: 15%;
   width: 85%;
-  height: 13vh; /* % of screen height → where visual bar is */
+  height: 12vh; /* % of screen height → where visual bar is */
   display: flex;
   justify-content: space-around;
   align-items: center;
