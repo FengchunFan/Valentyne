@@ -64,6 +64,7 @@ p {
   width: 100%;
   height: auto;
   display: block;
+  pointer-events: none; /* Pass all events “through” the image to whatever is underneath */
 }
 
 #navLinks {
