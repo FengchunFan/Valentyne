@@ -78,15 +78,15 @@ p {
   z-index: 2;
 }
 
-#navLinks a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  cursor: pointer;
+#navLinks a img {
+  height: 30px;
+  width: auto;
+  display: block;
+  transition: transform 0.2s ease;
 }
 
-#navLinks a:hover {
-  text-decoration: underline;
+#navLinks a:hover img {
+  transform: scale(1.1); /* Animation on hover */
 }
 
 /* ---------- Page 1 Style ---------- */
