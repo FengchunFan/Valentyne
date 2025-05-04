@@ -1,6 +1,6 @@
 # Valentyne
 
-Welcome to the official homepage of **Valentyne Design Studio**.
+Welcome to **Valentyne Design Studio**.
 
 🌐 **Website:** [Visit Here](https://fengchunfan.github.io/Valentyne)  
 🎨 **Stylesheet:** [View style.css](https://fengchunfan.github.io/Valentyne/style.css)  
