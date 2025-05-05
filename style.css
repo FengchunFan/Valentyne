@@ -34,7 +34,7 @@ html {
   color: white;
   max-width: 80vw;
   padding: 20px;
-  transform: translateY(-15%); /* Move up a bit */
+  /* transform: translateY(-15%);*/ /* Move up a bit */
   /* border: 3px solid lightblue; */
 }
 
@@ -49,6 +49,46 @@ p {
   font-size: 20px;
   line-height: 1.5;
   margin: 0 auto; /* center */
+}
+
+/* Top Bar */
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  pointer-events: none; /* Pass all events “through” the image to whatever is underneath */
+}
+
+#topbarImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#navLinks {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 85%;
+  height: 9vh; /* % of screen height → where visual bar is */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  pointer-events: auto; /* RE-ENABLE pointer events ONLY for navLinks */
+}
+
+#navLinks a img {
+  height: 4.5vh;
+  width: auto;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+#navLinks a:hover img {
+  transform: scale(1.1); /* Animation on hover */
 }
 
 /* ---------- Page 1 Style ---------- */
@@ -93,9 +133,10 @@ p {
 
 /* ---------- Page 5 Style ---------- */
 /* ---------- TODO: Dynamic Size ---------- */
-#page5 .content {
+/* Adjust content alignment */
+/* #page5 .content {
   transform: translateY(0);
-}
+} */
 
 /* Instagram icon */
 #page5 .social-icon {
