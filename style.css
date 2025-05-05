@@ -59,6 +59,7 @@ p {
   width: 100%;
   z-index: 9999;
   pointer-events: none; /* Pass all events “through” the image to whatever is underneath */
+  transition: transform 0.5s ease;
 }
 
 #topbarImage {

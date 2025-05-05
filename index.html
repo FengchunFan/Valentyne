@@ -144,16 +144,16 @@
       // Top bar scroll
       let isTopbarVisible = true;
       $('#navLinks').on('click', function(e) {
-        if (e.target === this) {
-          if (isTopbarVisible) {
-            $('#topbar').slideUp(300);
-            isTopbarVisible = false;
-          } else {
-            $('#topbar').slideDown(300);
-            isTopbarVisible = true;
-          }
+      if (e.target === this) {
+        if (isTopbarVisible) {
+          $('#topbar').css('transform', 'translateY(-10vh)');
+          isTopbarVisible = false;
+        } else {
+          $('#topbar').css('transform', 'translateY(0)');
+          isTopbarVisible = true;
         }
-      });
+      }
+    });
 
       // Contact form echo
       const form = document.getElementById('contactForm');
