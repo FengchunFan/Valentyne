@@ -142,16 +142,22 @@
       });
 
       // Top bar scroll
-      let isTopbarVisible = true;
-      $('#navLinks').on('click', function(e) {
-        if (e.target === this) {
-          if (isTopbarVisible) {
-            $('#topbar').css('transform', 'translateY(-7.5vh)');
-            isTopbarVisible = false;
-          } else {
-            $('#topbar').css('transform', 'translateY(0)');
-            isTopbarVisible = true;
-          }
+      $('#topbar').css('transform', 'translateY(-7.5vh)');
+      let isTopbarVisible = false;
+      // Mouse movement listener
+      $(window).on('mousemove', function(e) {
+        const y = e.clientY; // Distance from top of screen in pixels
+        const vh = window.innerHeight / 100; // 1vh in pixels
+        const yInVh = y / vh; // convert pixels → vh units
+
+        if (!isTopbarVisible && yInVh <= 2) {
+          // If mouse in top 2vh → show bar
+          $('#topbar').css('transform', 'translateY(0)');
+          isTopbarVisible = true;
+        } else if (isTopbarVisible && yInVh > 10) {
+          // If mouse leaves top 10vh → hide bar again
+          $('#topbar').css('transform', 'translateY(-7.5vh)');
+          isTopbarVisible = false;
         }
       });
 
