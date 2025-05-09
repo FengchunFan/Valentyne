@@ -154,8 +154,8 @@
           // If mouse in top 2vh → show bar
           $('#topbar').css('transform', 'translateY(0)');
           isTopbarVisible = true;
-        } else if (isTopbarVisible && yInVh > 10) {
-          // If mouse leaves top 10vh → hide bar again
+        } else if (isTopbarVisible && yInVh > 9.5) {
+          // If mouse leaves top 9.5vh → hide bar again
           $('#topbar').css('transform', 'translateY(-7.5vh)');
           isTopbarVisible = false;
         }
