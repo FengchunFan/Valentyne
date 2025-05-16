@@ -127,6 +127,17 @@ p {
 }
 
 /* ---------- Page 2 Style ---------- */
+#page2 .image-container {
+  position: relative;
+  width: 85vw;
+  height: fit-content;
+}
+
+#page2 .image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* ---------- Page 3 Style ---------- */
 
