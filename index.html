@@ -83,7 +83,14 @@
         </a>
 
         <!-- Contact Form -->
-        <form class="contact-form" id="contactForm">
+        <!-- Web3Forms Contact Form -->
+        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms access key -->
+          <input type="hidden" name="access_key" value="fbc9ef7c-4e6b-4dec-9c49-25a08cd325f3">
+
+          <!-- Honeypot Spam Protection -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
           <label for="name">Preferred Name:</label><br>
           <input type="text" id="name" name="name" required><br><br>
 
@@ -94,6 +101,7 @@
           <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
           <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
         </form>
 
         <!-- Output Area (empty at first) -->
@@ -159,28 +167,6 @@
           $('#topbar').css('transform', 'translateY(-7.5vh)');
           isTopbarVisible = false;
         }
-      });
-
-      // Contact form echo
-      const form = document.getElementById('contactForm');
-      const output = document.getElementById('formOutput');
-
-      form.addEventListener('submit', function(event) {
-        event.preventDefault(); // prevent real submit
-
-        const name = document.getElementById('name').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const message = document.getElementById('message').value.trim();
-
-        output.innerHTML = `
-          <h2>Thank you for reaching out!</h2>
-          <p><strong>Preferred Name:</strong> ${name}</p>
-          <p><strong>Contact Email:</strong> ${email}</p>
-          <p><strong>Inquiry:</strong> ${message}</p>
-        `;
-
-        form.style.display = 'none';
-        output.style.display = 'block';
       });
     });
   </script>
