@@ -128,7 +128,7 @@ p {
 
 /* ---------- Page 2 Style ---------- */
 #page2 {
-  background: url('images/About-Logo.png') center center no-repeat;
+  background: url('images/About_Logo.png') center center no-repeat;
   background-size: 100% 100%; /* Use cover for crop, 100% 100% for stretches */
   background-attachment: fixed;
   background-position: center;
