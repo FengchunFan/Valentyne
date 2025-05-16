@@ -127,16 +127,11 @@ p {
 }
 
 /* ---------- Page 2 Style ---------- */
-#page2 .image-container {
-  position: relative;
-  width: 85vw;
-  height: fit-content;
-}
-
-#page2 .image-container img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+#page2 {
+  background: url('images/About-Page.png') center center no-repeat;
+  background-size: 100% 100%; /* Use cover for crop, 100% 100% for stretches */
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* ---------- Page 3 Style ---------- */
